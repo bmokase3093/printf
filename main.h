@@ -28,8 +28,14 @@ int selector(int *i, const char *format, va_list x);
 int op_char(va_list p);
 int op_string(va_list p);
 int op_percent(va_list __attribute__((unused)) p);
+int op_numbers(va_list arg);
 
 /* Other Prototypes */
+int op_unsigned(va_list arg);
+int op_octal(va_list p);
+int op_binary(va_list p);
+int print_rev(va_list p);
+int rot13(va_list p);
 
 /* Additional Prototypes */
 int _putchar(char c);

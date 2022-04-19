@@ -21,7 +21,15 @@ int selector(int *i, const char *format, va_list x)
 	base_t ops[] = {
 		{"c", op_char},
 		{"s", op_string},
-		{"%", op_percent}
+		{"%", op_percent},
+		{"d", op_numbers},
+		{"i", op_numbers},
+		{"u", op_unsigned},
+		{"o", op_octal},
+		{"b", op_binary},
+		{"r", print_rev},
+		{"R", rot13},
+		{NULL, NULL}
 	};
 
 	int c = 0;
