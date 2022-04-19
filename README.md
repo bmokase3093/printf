@@ -4,3 +4,4 @@ if we are using the **C programming language.**
 The **printf** function basically allows us to print any argument
 given to standard or terminal output. This means that we can print
 any combination of strings, integers, and other different data types.
+Write a function that produces output according to a format
