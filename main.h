@@ -23,7 +23,6 @@ typedef struct  base
 /* Funtion prototypes */
 int _printf(const char *format, ...);
 int selector(int *i, const char *format, va_list x);
-int ev_print_func(const char *s, int index)
 
 /* Basic task Prototypes */
 int op_char(va_list p);
