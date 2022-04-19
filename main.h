@@ -1,5 +1,5 @@
-#ifndef MAIN_F
-#define MAIN_F
+#ifndef PRINT_F
+#define PRINT_F
 
 #include <unistd.h>
 #include <stdlib.h>
@@ -18,6 +18,7 @@ struct convert
 };
 typedef struct convert conver_t;
 
-/* Declare function prototypes */
+/*Main functions*/
+int parser(const char *format, conver_t f_list[], va_list arg_list);
 int _printf(const char *format, ...);
 #endif
