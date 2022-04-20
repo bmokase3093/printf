@@ -23,7 +23,7 @@ typedef struct flags
  * on the format specifier passed to _printf()
  * @c: format specifier
  * @f: pointer to the correct printing function
- */
+i */
 typedef struct printHandler
 {
     char c;
